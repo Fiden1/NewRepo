@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 int customRandom(int min, int max)
