@@ -6,8 +6,8 @@ int customRandom(int min, int max)
 	return min + rand() % (max - min + 1);
 }
 int win(int sum, int compSum) {
-	if (sum > compSum)
-		cout << "you win with " << sum << " point,computer got " << compSum << endl;
+	if (sum > compSum){
+		cout << "you win with " << sum << " point,computer got " << compSum << endl;}
 	if (sum == compSum) {
 		cout << "it's a draw,you got " << sum << " points,computer got " << compSum << endl;
 	}
